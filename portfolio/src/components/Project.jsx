@@ -11,10 +11,11 @@ import nine from "/src/assets/password_generator.png";
 import ten from "/src/assets/number_guessing_game.png";
 import eliven from "/src/assets/bmi_calculator.png";
 import twelve from "/src/assets/change_bgcolor_every_sec.png";
+import Portfolio from "../../public/portfolio.png"
 
 const projects = [
   {
-    src: "/src/assets/portfolio.png",
+    src: Portfolio,
     title: "Portfolio",
     link: "https://singlepage-portfolio-2ayy.vercel.app/",
   },
