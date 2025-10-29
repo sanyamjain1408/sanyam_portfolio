@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import first from "/src/assets/portfolio.png";
+
 import second from "/src/assets/clipcode.png";
 import third from "/src/assets/todo.png";
 import forth from "/src/assets/submitform.png";
@@ -14,65 +14,42 @@ import twelve from "/src/assets/change_bgcolor_every_sec.png";
 
 const projects = [
   {
-    src: first,
+    src: "/src/assets/portfolio.png",
     title: "Portfolio",
     link: "https://singlepage-portfolio-2ayy.vercel.app/",
   },
+   {
+    src: "/src/assets/docpat.png",
+    title: "DOCPAT",
+    link: "https://github.com/sanyamjain1408/docpat",
+  },
+   {
+    src: "/src/assets/barber_booking.png",
+    title: "BarBer Online Booking web",
+    link: "https://github.com/sanyamjain1408/online_booking",
+  },
   {
-    src: second,
+    src: "/src/assets/chatboard.png",
+    title: "Chat Board",
+    link: "https://github.com/sanyamjain1408/ChatBoardApp-React.js-and-Node.js",
+  },
+  {
+    src: "/src/assets/clipcode.png",
     title: "ClipCode",
     link: "https://clipcodeapp-two.vercel.app/",
   },
   {
-    src: third,
+    src:"/src/assets/todo.png",
     title: "Todo",
     link: "https://todo-lilac-sigma.vercel.app/",
   },
-  {
-    src: forth,
-    title: "SubmitForm-Backend_nodejs",
-    link: "https://github.com/sanyamjain1408/submit_form_store_in_mongodb----backend_node.js",
-  },
-  {
-    src: five,
-    title: "DOCPAT",
-    link: "https://github.com/sanyamjain1408/docpat",
-  },
-  {
-    src: six,
-    title: "Page Routing",
-    link: "https://github.com/sanyamjain1408/page_routing",
-  },
-  {
-    src: seven,
-    title: "Color Switcher",
-    link: "https://github.com/sanyamjain1408/switch_color",
-  },
-  {
-    src: eight,
-    title: "Google",
-    link: "https://github.com/sanyamjain1408/google-web-page",
-  },
-  {
-    src: nine,
-    title: "Generate Random Password",
-    link: "https://github.com/sanyamjain1408/passwordgenerator/",
-  },
-   {
-    src: ten,
-    title: "Number Guessing Game",
-    link: "https://github.com/sanyamjain1408/number-guessing-game/",
-  },
-  {
-    src: eliven,
-    title: "BMI Calculator",
-    link: "https://github.com/sanyamjain1408/bmi_calculator/",
-  },
-   {
-    src: twelve,
-    title: "Change Bg Color Every Sec.",
-    link: "https://github.com/sanyamjain1408/bmi_calculator/",
-  }
+  
+  
+ 
+ 
+  
+  
+   
 ];
 
 function Project() {
@@ -107,12 +84,13 @@ function Project() {
         ))}
       </div>
 
-      <button
-        onClick={() => setShowAll(!showAll)}
-        className="mt-8 bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-200"
-      >
-        {showAll ? "Show Less" : "Show All Projects"}
-      </button>
+     <button
+  onClick={() => window.open("https://github.com/sanyamjain1408?tab=repositories", "_blank")}
+  className="mt-8 bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 transition duration-200"
+>
+  {showAll ? "Show Less" : "Show All Projects"}
+</button>
+
     </section>
   );
 }
