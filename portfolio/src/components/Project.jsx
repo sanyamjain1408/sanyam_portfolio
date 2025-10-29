@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 
-import second from "/src/assets/clipcode.png";
-import third from "/src/assets/todo.png";
-import forth from "/src/assets/submitform.png";
-import five from "/src/assets/docpat.png";
-import six from "/src/assets/routing.png";
-import seven from "/src/assets/color_switcher.png";
-import eight from "/src/assets/google.png";
-import nine from "/src/assets/password_generator.png";
-import ten from "/src/assets/number_guessing_game.png";
-import eliven from "/src/assets/bmi_calculator.png";
-import twelve from "/src/assets/change_bgcolor_every_sec.png";
+
 import Portfolio from "../../public/portfolio.png"
+import DOCPAT from "../../public/docpat.png"
+import BarBer from "../../public/barber_booking.png"
+import Chat from "../../public/chatboard.png"
+import ClipCode from "../../public/clipcode.png"
+import Todo from "../../public/todo.png"
 
 const projects = [
   {
@@ -20,27 +15,27 @@ const projects = [
     link: "https://singlepage-portfolio-2ayy.vercel.app/",
   },
    {
-    src: "/src/assets/docpat.png",
+    src: DOCPAT,
     title: "DOCPAT",
     link: "https://github.com/sanyamjain1408/docpat",
   },
    {
-    src: "/src/assets/barber_booking.png",
+    src: BarBer,
     title: "BarBer Online Booking web",
     link: "https://github.com/sanyamjain1408/online_booking",
   },
   {
-    src: "/src/assets/chatboard.png",
+    src: Chat,
     title: "Chat Board",
     link: "https://github.com/sanyamjain1408/ChatBoardApp-React.js-and-Node.js",
   },
   {
-    src: "/src/assets/clipcode.png",
+    src: ClipCode,
     title: "ClipCode",
     link: "https://clipcodeapp-two.vercel.app/",
   },
   {
-    src:"/src/assets/todo.png",
+    src:Todo,
     title: "Todo",
     link: "https://todo-lilac-sigma.vercel.app/",
   },
