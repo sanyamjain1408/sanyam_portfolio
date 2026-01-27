@@ -15,9 +15,13 @@ export default function About() {
               Hello everyone, I'm Sanyam Jain,
             </h2>
             <p className="mt-6 text-gray-950 text-2xl ">
-              A B.Tech student specializing in Computer Science Engineering at Parul University.
-              I have a strong command of Full-Stack Web Development and UI/UX design, allowing
-              me to create visually appealing and highly functional websites.
+              I am a B.Tech student (7th semester completed)
+            specializing in Computer Science Engineering 
+            at Parul University, with strong expertise in
+            Full-Stack Web Development (MERN Stack) and
+            UI/UX design. I have hands-on experience in 
+            building responsive, user-friendly, and visually
+             appealing web applications.
             </p>
             <p className="mt-4 text-gray-900">
               My technical expertise includes HTML, CSS, Tailwind, JavaScript, React, MongoDB,
@@ -25,10 +29,11 @@ export default function About() {
               design and have a deep understanding of both frontend and backend development.
             </p>
             <p className="mt-4 text-gray-900">
-              I have also gained practical experience as a UI/UX Designer intern at Fuel Flex
-              Company, where I worked on designing intuitive and user-friendly digital
-              interfaces. With my skills and hands-on experience, I can efficiently develop,
-              optimize, and enhance web applications to deliver a seamless user experience.
+              I have gained hands-on experience in Web Development at Fuel Flex Company, where 
+              I also worked on UI/UX design for their partner app, creating intuitive and
+               user-friendly interfaces. Combining this with my skills in Full-Stack Web Development,
+                I can efficiently develop, optimize, and enhance web applications to deliver a 
+                seamless user experience.
             </p>
           </div>
         </motion.div>

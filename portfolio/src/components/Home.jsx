@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion"; // ✅ Only motion needed
-import sanyam from '/src/assets/blue.jpg';
+import sanyam from '/src/assets/sanyam.jain.png';
 import instagram from '/src/assets/insta.jpg';
 import linkedin from '/src/assets/linkedin.webp';
 import github from '/src/assets/github.webp';
