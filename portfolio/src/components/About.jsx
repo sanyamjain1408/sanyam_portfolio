@@ -18,22 +18,30 @@ export default function About() {
               I am a B.Tech student (7th semester completed)
             specializing in Computer Science Engineering 
             at Parul University, with strong expertise in
-            Full-Stack Web Development (MERN Stack) and
-            UI/UX design. I have hands-on experience in 
-            building responsive, user-friendly, and visually
-             appealing web applications.
+            Flutter Development using Dart and 
+            Full-Stack Web Development (MERN Stack).
+             I have hands-on experience in building responsive,
+              user-friendly, and visually appealing web applications.
             </p>
             <p className="mt-4 text-gray-900">
-              My technical expertise includes HTML, CSS, Tailwind, JavaScript, React, MongoDB,
-              and API testing using Postman. Additionally, I am proficient in Figma for UI/UX
-              design and have a deep understanding of both frontend and backend development.
+              My technical expertise includes HTML, CSS, Tailwind, JavaScript,
+               React, MongoDB, Dart, and API testing using Postman. I also
+                specialize in Flutter development, creating scalable 
+                cross-platform mobile applications with dynamic UI components,
+                 state management, and REST API integration, backed by a strong
+                  understanding of full-stack development principles.
             </p>
             <p className="mt-4 text-gray-900">
-              I have gained hands-on experience in Web Development at Fuel Flex Company, where 
-              I also worked on UI/UX design for their partner app, creating intuitive and
-               user-friendly interfaces. Combining this with my skills in Full-Stack Web Development,
-                I can efficiently develop, optimize, and enhance web applications to deliver a 
-                seamless user experience.
+              I gained hands-on experience in Web Development at Fuel Flex Company,
+               where I contributed to responsive web solutions and worked on UI/UX
+                design for their partner application, creating intuitive and user-friendly
+                 interfaces. Additionally, I completed a Flutter Developer internship at
+                  TechPilot IT Solution, where I developed cross-platform mobile applications
+                   using Dart and Flutter, implemented dynamic UI components, integrated REST
+                    APIs, and managed application state for smooth performance. Combining this
+                     with my Full-Stack Web Development skills, I am capable of developing,
+                      optimizing, and enhancing both web and mobile applications to deliver 
+                      a seamless user experience.
             </p>
           </div>
         </motion.div>

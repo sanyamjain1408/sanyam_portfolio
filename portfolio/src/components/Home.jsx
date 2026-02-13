@@ -27,7 +27,7 @@ export default function Home() {
                           hover:sm:text-6xl ease-in-out duration-300 ">
               Hello , <br /> I'm Sanyam Jain ,
               <br />
-              <span className="text-sm">MERN Stack Developer, UI/UX Designer</span>
+              <span className="text-sm">Flutter Developer, MERN Stack Developer</span>
             </h2>
 
             <div className="flex flex-col sm:flex-row  gap-3 ">

@@ -6,7 +6,7 @@ import DOCPAT from "../../public/docpat.png"
 import BarBer from "../../public/barber_booking.png"
 import Chat from "../../public/chatboard.png"
 import ClipCode from "../../public/clipcode.png"
-import Todo from "../../public/todo.png"
+import Calculator from "../../public/calculator.jpeg"
 
 const projects = [
   {
@@ -35,9 +35,11 @@ const projects = [
     link: "https://clipcodeapp-two.vercel.app/",
   },
   {
-    src:Todo,
-    title: "Todo",
-    link: "https://todo-lilac-sigma.vercel.app/",
+    src:Calculator,
+    title: "Dynamic Calculator",
+    link: "https://github.com/sanyamjain1408/Dynamic_calculator",
+    width: "w-[20rem]",
+  height: "h-[10rem]"
   },
   
   

@@ -7,7 +7,7 @@ export default function Contact() {
       id="contact"
       className="relative flex items-center justify-center min-h-screen "
     >
-      <div className="max-w-xl w-full px-6">
+      <div className="max-w-xxl w-full px-6">
         <motion.div
           className=" items-center justify-center gap-8 h-full"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -66,7 +66,7 @@ export default function Contact() {
                      0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               <div className="ml-4 text-md font-semibold w-60">
-                sanyamkanu@gmail.com
+                sanyamjain1408@gmail.com
               </div>
             </div>
           </div>
